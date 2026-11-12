@@ -261,7 +261,6 @@ or the content was changed.
 - The main menu bar is abbreviated: "Bag Kit Skl Dog T.C. Sts Nav".
 - One body-part menu and one fruit menu use very short forms
   ("Hr/Br/Ns/C/E/Lp/Nk/Hn", "Bana Strw WMel Apri").
-- The airport desk menu has "Gab" for "chat".
 - About 50 lines were reworded more tightly than the Japanese to fit their
   boxes.
 - A hound's name under its HP in battle is shown in capitals.
