@@ -1,0 +1,17 @@
+# This repository holds release material only: the readme, the install guide,
+# checksums, screenshots and patch files. Everything else is ignored, so that
+# scripts, tools, source text and disc images can never be committed by mistake.
+
+# Ignore everything...
+*
+
+# ...except these.
+!.gitignore
+!README.md
+!INSTALL.md
+!SHA1SUMS.txt
+!LICENSE
+!*.xdelta
+!*.cue
+!screenshots/
+!screenshots/*.png
