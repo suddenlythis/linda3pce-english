@@ -95,6 +95,9 @@ adults. This translation does not tone any of that down.
   <img src="screenshots/12-battle-menu.png" width="270" alt="Battle screen with the English command menu">
   <img src="screenshots/13-cutscene-grim-reaper.png" width="270" alt="Subtitled cutscene: The one they call the Grim Reaper. This one!">
 </p>
+<p align="center">
+  <img src="screenshots/14-prologue.png" width="270" alt="Prologue with the subtitle band: When we grow up, Ken, I'll make you my husband.">
+</p>
 
 ## This version and the PlayStation version
 
