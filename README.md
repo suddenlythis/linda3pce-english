@@ -1,20 +1,21 @@
-# Linda³ (PC Engine Super CD-ROM²) English translation v0.3
+# Linda³ (PC Engine Super CD-ROM²) English translation v1.0
 
 An unofficial fan translation patch. It contains only the changes to the game's
 data track, not the game: you need your own disc image of **Linda3 (Japan, Rev 2)**.
 
-**[Download the patch (v0.3)](https://github.com/suddenlythis/linda3pce-english/releases/tag/v0.3)**
+**[Download the patch (v1.0)](https://github.com/suddenlythis/linda3pce-english/releases/tag/v1.0)**
  · [How to install](INSTALL.md) · [Checksums](SHA1SUMS.txt)
 
 <p align="center">
-  <img src="screenshots/01-title.png" width="512" alt="Title screen with the line: English translation v0.3">
+  <img src="screenshots/01-title.png" width="512" alt="Title screen with the line: English translation v1.0">
 </p>
 
 ## Progress
 
-Although this is numbered 0.3, most of the work is done. What is left is
-subtitling the rest of the cutscenes, then stability and testing, before it can
-leave this beta phase.
+### Completed:
+
+Version 1.0: the whole script, the menus and the names are in English, and every
+voiced cutscene with story speech is subtitled.
 
 | Area | Status | Details |
 |---|---|---|
@@ -25,8 +26,8 @@ leave this beta phase.
 | Names | Done | Animals, items, equipment, food, abilities and towns: about 1,000 |
 | Battle screens | Done | Command menu, prompts, attack, damage, recovery and level-up lines, effect names, stat labels, the hound's name under its HP |
 | English text entry (naming a hound) | Done | The kana grid replaced by an English one (A-Z, a-z, hyphen, space). Names are 2 to 4 letters |
-| Subtitle system for voiced cutscenes | Working, still being extended | Draws the text as sprites in time with the voices. Fitting it into the memory of the remaining scenes is being worked on |
-| Voice-only cutscenes | 6 subtitled, about 10 to go | Done: the intro narration, the Chief's recap at the meeting, four more story cutscenes. Not yet: the prologue and the rest |
+| Subtitle system for voiced cutscenes | Done | Text in time with the voices: drawn as sprites, or, where a cutscene has no memory to spare, in a black band under its pictures |
+| Voice-only cutscenes | Done: 13 subtitled | The intro narration, the prologue, the Chief's recap at the meeting and ten story cutscenes. The others have no story speech (see [Not translated](#not-translated)) |
 | Staff credits | Not translated | Left as they are, on purpose |
 | Text that is part of a picture | Not translated | The title logo, the PAUSE box, the opening credit sections after the first |
 | Tested on | Mednafen 1.32.1 | Also started and played briefly on RetroArch with the Beetle PCE core. Not tested on other emulators or on real hardware |
@@ -132,45 +133,50 @@ not from a comparison made for this patch.
 | **Content** | As first written. It got a high age rating in Japan for its violence. | Toned down. The PlayStation translators' notes say the largest story changes and cuts came with this version. |
 | **Story and names** | The 1995 script. | Some story elements, character names, scenes and animal designs changed or removed. |
 | **Character art** | The original designs. | Redrawn, the designs are very different. |
-| **Cutscenes** | Still pictures drawn by the program, with voice and no text. | Animated cutscenes. |
+| **Cutscenes** | Still pictures drawn by the program, with voice and no text. This patch adds English subtitles. | Animated cutscenes. |
 | **Graphics** | 1995 PC Engine graphics. | Reworked throughout. |
 | **Scenarios** | Three: A, B and C. | Four: a fourth was added, described as a time trial with little story. |
-| **English** | This patch, v0.3: early, with gaps (see below). | Complete, released 2024. |
+| **English** | This patch, v1.0: complete. | Complete, released 2024. |
 
-In short: the remake is the more polished game and has the finished English
-translation. The original is the game as it was first made, with the content
-the remake softened, and until now it could not be played in English at all.
+In short: The original is the game as it was first made, with the content
+the remake had softened, and with this patch it can now be played in English from
+start to finish.
 
 ## Installing
 
-1. Get the zip from the [v0.3 release](https://github.com/suddenlythis/linda3pce-english/releases/tag/v0.3).
-2. Patch your Track 02 file with `Linda3-EN-v0.3.xdelta`, keeping its file name.
-3. Open your usual `.cue`.
+1. **Back up your existing saves first**, if you have a game in progress.
+2. Get the zip from the [v1.0 release](https://github.com/suddenlythis/linda3pce-english/releases/tag/v1.0).
+3. Patch your Track 02 file with `Linda3-EN-v1.0.xdelta`, keeping its file name.
+4. Open your usual `.cue`.
 
 Your Track 02 must have SHA-1 `3296a4db58a92a60dfbd35fc99a8c1943db995e1`
-before patching, and will have `86abb01a2dd40a48d19e7293575468ce1170887e`
-afterwards. The full steps, for Delta Patcher and for the command line, are in
+before patching, and will have `9bed666ca2bc4429a7db03a5bacdb9d28f08c694`
+afterwards. The patch applies to the original Japanese Track 02, not to a
+Track 02 already patched with v0.3. The full steps, for Delta Patcher and for the command line, are in
 **[INSTALL.md](INSTALL.md)**.
 
-Start a new game or boot fresh after patching. A save state made on the Japanese
-game or on an older version of the patch keeps showing the old text until the
-game loads that area again. In-game saves are not affected.
+**Coming from v0.3 or the Japanese game:** your in-game saves carry over. Saves
+made with the game's own save option keep your progress and load normally in
+v1.0, which then shows the new text.
+
+Emulator save states do not carry over cleanly. A save state made on the
+Japanese game or on an older version of the patch keeps showing the old text
+until the game loads that area again, and one made during a cutscene can
+misbehave. Boot fresh after patching and continue from an in-game save.
 
 ## About this translation
 
-Version 0.3 is an early release, made to find out whether the patch works on
-other people's copies. It should be playable from start to finish in English,
-but it has not been played through and needs more testing. Please see
-"Known issues".
-
-Not all cutscenes are translated yet.
+Version 1.0 completes the translation: the script, the menus, the names and
+the voiced cutscenes. The whole game can be played in English from start to
+finish. If you spot anything that looks wrong, please report it.
 
 AI was used to assist with the code and translation.
 
-Six of the cutscenes are subtitled. Around ten remain, including the prologue:
-managing the memory to draw the subtitles in scenes is proving to be
-cumbersome, and I wanted to get this release out as it is and see if people were
-interested.
+The cutscene subtitles were the hardest part. The cutscenes have speech and no
+text anywhere on the disc, and several have no memory to spare for drawing
+subtitles. For seven of them the pictures were rebuilt on the disc, cropped just
+above a band at the bottom of the screen, so the subtitles have room
+and memory to be drawn there.
 
 ## What is in English
 
@@ -184,12 +190,12 @@ interested.
   its HP.
 - The grid for naming a hound (A-Z, a-z, hyphen, space. Names are 2 to 4
   letters).
-- Subtitles for six voice-only cutscenes. These scenes have speech and no text
-  anywhere on the disc, so the lines were transcribed by ear and by machine,
-  translated, and drawn on screen in time with the voices:
-  - the intro narration
+- Subtitles for thirteen voice-only cutscenes. These scenes have speech and no
+  text anywhere on the disc. They were written up, translated, and drawn on
+  screen in time with the voices:
+  - the intro narration and the prologue
   - the Chief's recap at the meeting ("...shall I recap?" - Yes)
-  - four more story cutscenes, one of them with a Yes / No choice
+  - ten story cutscenes, one of them with a Yes / No choice
 
 ## What was changed in the game
 
@@ -203,8 +209,9 @@ or the content was changed.
 - English is stored compressed (a dictionary of common letter pairs on top of
   the game's own compression) so that each scene's script fits in the space
   its Japanese script had.
-- The game now reads its text as English. The few lines still in Japanese are
-  flagged so they display properly instead of as garbage.
+- The game now reads its text as English. Lines that keep a Japanese symbol
+  (rows of dots for a pause, a few marks) are flagged so they display as in the
+  original.
 
 **Font**
 
@@ -237,24 +244,29 @@ or the content was changed.
 
 **Cutscene subtitles**
 
-- A small routine added to each subtitled cutscene program draws the text as
-  sprites, its text and font sit in unused sectors of the disc.
+- A small routine added to each subtitled cutscene program draws the text, its
+  text and font sit in unused sectors of the disc.
+- Six cutscenes draw it as sprites in a window over the picture.
+- Seven cutscenes (the prologue and six story scenes) had no memory or video
+  memory to spare. Their pictures were rebuilt on the disc, cropped just above a
+  black band at the bottom of the screen, and the subtitles are drawn in that
+  band. Where even that left no room, parts of the cutscene were packed tighter
+  to free a memory bank, and the letters move to free video memory while the
+  scene plays. The pictures above the band are the original ones, pixel for
+  pixel.
 
 ## Not translated
 
-- Voice-only cutscenes: six are subtitled. Around ten are not yet, including
-  the prologue. In those you will hear Japanese speech with no text.
 - The staff credits (left as they are, on purpose).
 - Text that is part of a picture: the title logo, the PAUSE box, and the
   opening credit sections after the first.
 
 ## Known issues
 
-**Wrong or missing**
+**Limits**
 
 - Hound names are 2 to 4 letters (the original allows 4 kana). The name grid
   has no digits.
-- Two script lines that are shared between scenes still appear in Japanese.
 
 **Cut short to fit**
 
@@ -272,14 +284,14 @@ or the content was changed.
 - In the battle menu the selector on "Attack" ends about two pixels from the
   next word.
 
-**Subtitles for cutscenes**
+**Voiced dialogue**
 
-- Timing and wording: the recap was checked line by line against the audio in
-  play.
+- In conversations with voice, some lines continue on a second page: press the
+  button to read on while the voice keeps playing.
 
 ## Technical
 
-- Only Track 02 is changed (396 byte ranges). The audio tracks are untouched.
+- Only Track 02 is changed (1,093 byte ranges). The audio tracks are untouched.
 - The patched track is the same size as the original, sector error-correction
   data is recomputed for every changed sector.
 - Building with no patches applied reproduces the original track exactly.
@@ -288,6 +300,11 @@ or the content was changed.
   hardware.
 
 ## Version history
+
+**v1.0, 2026-11-19.** The remaining voiced cutscenes subtitled: the prologue
+and six story cutscenes, thirteen in all. Their pictures are rebuilt on the disc
+with a subtitle band below them. A voiced conversation that had gaps was
+completed, and voiced lines too wide for the speaker's box were rewrapped.
 
 **v0.3, 2026-11-12.** First packaged release. Full script, menus, names, battle
 screens, six subtitled cutscenes, version line on the title screen. Rebuilt
