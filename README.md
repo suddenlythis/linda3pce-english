@@ -1,9 +1,9 @@
-# Linda³ (PC Engine Super CD-ROM²) English translation v1.0
+# Linda³ (PC Engine Super CD-ROM²) English translation v1.1
 
 An unofficial fan translation patch. It contains only the changes to the game's
 data track, not the game: you need your own disc image of **Linda3 (Japan, Rev 2)**.
 
-**[Download the patch (v1.0)](https://github.com/suddenlythis/linda3pce-english/releases/tag/v1.0)**
+**[Download the patch (v1.1)](https://github.com/suddenlythis/linda3pce-english/releases/tag/v1.1)**
  · [How to install](INSTALL.md) · [Checksums](SHA1SUMS.txt)
 
 <p align="center">
@@ -139,7 +139,7 @@ not from a comparison made for this patch.
 | **Cutscenes** | Still pictures drawn by the program, with voice and no text. This patch adds English subtitles. | Animated cutscenes. |
 | **Graphics** | 1995 PC Engine graphics. | Reworked throughout. |
 | **Scenarios** | Three: A, B and C. | Four: a fourth was added, described as a time trial with little story. |
-| **English** | This patch, v1.0: complete. | Complete, released 2024. |
+| **English** | This patch, v1.1: complete. | Complete, released 2024. |
 
 In short: The original is the game as it was first made, with the content
 the remake had softened, and with this patch it can now be played in English from
@@ -148,19 +148,19 @@ start to finish.
 ## Installing
 
 1. **Back up your existing saves first**, if you have a game in progress.
-2. Get the zip from the [v1.0 release](https://github.com/suddenlythis/linda3pce-english/releases/tag/v1.0).
-3. Patch your Track 02 file with `Linda3-EN-v1.0.xdelta`, keeping its file name.
+2. Get the zip from the [v1.1 release](https://github.com/suddenlythis/linda3pce-english/releases/tag/v1.1).
+3. Patch your Track 02 file with `Linda3-EN-v1.1.xdelta`, keeping its file name.
 4. Open your usual `.cue`.
 
 Your Track 02 must have SHA-1 `3296a4db58a92a60dfbd35fc99a8c1943db995e1`
-before patching, and will have `9bed666ca2bc4429a7db03a5bacdb9d28f08c694`
+before patching, and will have `ded8a45629a67c59b9e1ac883282d9adccbf3d90`
 afterwards. The patch applies to the original Japanese Track 02, not to a
-Track 02 already patched with v0.3. The full steps, for Delta Patcher and for the command line, are in
+Track 02 already patched with v0.3 or v1.0. The full steps, for Delta Patcher and for the command line, are in
 **[INSTALL.md](INSTALL.md)**.
 
-**Coming from v0.3 or the Japanese game:** your in-game saves carry over. Saves
+**Coming from v0.3, v1.0 or the Japanese game:** your in-game saves carry over. Saves
 made with the game's own save option keep your progress and load normally in
-v1.0, which then shows the new text.
+v1.1, which then shows the new text.
 
 Emulator save states do not carry over cleanly. A save state made on the
 Japanese game or on an older version of the patch keeps showing the old text
@@ -227,6 +227,8 @@ or the content was changed.
 
 - Place-name boxes are sized to the English name by the patch (850 of 1,125
   were widened, long names use two lines).
+- Screen titles (the phone's message list, the animal registry, shops and
+  other services) are sized to the English the same way.
 - Selector frames in choice menus were re-spaced so that the frame sits on its
   own option, some menus got a wider frame (the bank, the pause settings).
 - The battle command menu was widened and given a larger selector. It now
@@ -286,6 +288,8 @@ or the content was changed.
   edge of the box.
 - In the battle menu the selector on "Attack" ends about two pixels from the
   next word.
+- On the gear screen, gear names longer than 11 letters (about 40 of them,
+  such as "TanukiMoccasin") run onto the next line.
 
 **Voiced dialogue**
 
@@ -294,7 +298,7 @@ or the content was changed.
 
 ## Technical
 
-- Only Track 02 is changed (1,093 byte ranges). The audio tracks are untouched.
+- Only Track 02 is changed (1,102 byte ranges). The audio tracks are untouched.
 - The patched track is the same size as the original, sector error-correction
   data is recomputed for every changed sector.
 - Building with no patches applied reproduces the original track exactly.
@@ -303,6 +307,16 @@ or the content was changed.
   hardware.
 
 ## Version history
+
+**v1.1, 2026-11-23.** Fixes for issues reported after v1.0 (#1, #2). Screen
+titles that showed only their last letters with a line across them (the
+message calls, the animal registry, shops) are sized to the English. In the
+pause settings the Battle row can be selected again, and changing a speed no
+longer leaves letters behind. The Camp menu's options line up with the
+selector, and the message-call notice shows in full. On the gear screen no
+part of an old name is left behind, an empty slot reads "No weapon" (and so
+on) instead of "Buy", and the attack label is in English. The skill list and
+the hound ability list no longer wrap long entries.
 
 **v1.0, 2026-11-19.** The remaining voiced cutscenes subtitled: the prologue
 and six story cutscenes, thirteen in all. Their pictures are rebuilt on the disc

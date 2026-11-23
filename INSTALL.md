@@ -1,4 +1,4 @@
-# Installing the Linda³ English translation (v1.0)
+# Installing the Linda³ English translation (v1.1)
 
 The download contains only the changes to the game's data track, not the game.
 You need your own disc image of **Linda3 (Japan, Rev 2)**.
@@ -14,7 +14,7 @@ You need your own disc image of **Linda3 (Japan, Rev 2)**.
   | SHA-1 | `3296a4db58a92a60dfbd35fc99a8c1943db995e1` |
 
   With any other Track 02 the patch refuses to apply. That includes a Track 02
-  already patched with v0.3: patch the original Japanese track.
+  already patched with v0.3 or v1.0: patch the original Japanese track.
 - xdelta3, or a front end for it such as Delta Patcher or xdelta UI.
 - A PC Engine CD emulator with a Super System Card (version 3.0).
 
@@ -22,7 +22,7 @@ You need your own disc image of **Linda3 (Japan, Rev 2)**.
 
 | File | What it is |
 |---|---|
-| `Linda3-EN-v1.0.xdelta` | The patch (Track 02 only) |
+| `Linda3-EN-v1.1.xdelta` | The patch (Track 02 only) |
 | `Linda3 EN.cue` | Optional cue sheet, only for the side-by-side alternative below. Most people do not need it |
 | `README.txt` | The release notes |
 
@@ -34,13 +34,13 @@ emulator's save folder (for Mednafen, the `sav` folder).
 
 ## How to apply
 
-Patch your Track 02 file with `Linda3-EN-v1.0.xdelta`. Keep its file name, and
+Patch your Track 02 file with `Linda3-EN-v1.1.xdelta`. Keep its file name, and
 open your usual `.cue`. That is all.
 
 ### With Delta Patcher
 
 1. **Original file** = your `... (Track 02).bin`
-2. **XDelta patch** = `Linda3-EN-v1.0.xdelta`
+2. **XDelta patch** = `Linda3-EN-v1.1.xdelta`
 3. Tick **Backup original file** in the settings, then **Apply patch**.
 
 ### With the command line
@@ -49,7 +49,7 @@ xdelta3 writes a new file, so rename the original first:
 
 ```
 ren "Linda^3 (Japan) (Rev 2) (Track 02).bin" "Track 02 original.bin"
-xdelta3 -d -s "Track 02 original.bin" Linda3-EN-v1.0.xdelta "Linda^3 (Japan) (Rev 2) (Track 02).bin"
+xdelta3 -d -s "Track 02 original.bin" Linda3-EN-v1.1.xdelta "Linda^3 (Japan) (Rev 2) (Track 02).bin"
 ```
 
 ### Check the result
@@ -57,7 +57,7 @@ xdelta3 -d -s "Track 02 original.bin" Linda3-EN-v1.0.xdelta "Linda^3 (Japan) (Re
 The patched Track 02 has SHA-1:
 
 ```
-9bed666ca2bc4429a7db03a5bacdb9d28f08c694
+ded8a45629a67c59b9e1ac883282d9adccbf3d90
 ```
 
 ## Alternative: keep the Japanese and English discs side by side
@@ -72,7 +72,7 @@ differently, edit the names in it.
 Boot fresh after patching.
 
 **In-game saves carry over.** Saves made with the game's own save option, on
-v0.3 or on the Japanese game, keep your progress and load normally in v1.0,
+v0.3, v1.0 or the Japanese game, keep your progress and load normally in v1.1,
 which then shows the new text. If you keep your usual `.cue` and its file
 names, the emulator finds the save by itself.
 
