@@ -288,6 +288,7 @@ or the content was changed.
   edge of the box.
 - In the battle menu the selector on "Attack" ends about two pixels from the
   next word.
+
 **Voiced dialogue**
 
 - In conversations with voice, some lines continue on a second page: press the
@@ -315,7 +316,9 @@ shows in full. On the gear screen no part of an old name is left behind, an
 empty slot reads "No weapon" (and so on) instead of "Buy", and the attack label
 is in English. Gear names too long for a slot there end in "..." (the full name
 shows in shops and in the gear list). The skill list and the hound ability list
-no longer wrap long entries.
+no longer wrap long entries. The date popup, the hound-name error, scenario B's
+goal and one drink in the bar menu no longer run past their boxes ("Gorilla
+Punch" is now "Ape Punch").
 
 **v1.0, 2026-11-19.** The remaining voiced cutscenes subtitled: the prologue
 and six story cutscenes, thirteen in all. Their pictures are rebuilt on the disc
