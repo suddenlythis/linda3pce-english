@@ -153,7 +153,7 @@ start to finish.
 4. Open your usual `.cue`.
 
 Your Track 02 must have SHA-1 `3296a4db58a92a60dfbd35fc99a8c1943db995e1`
-before patching, and will have `c544e127c3ffac339a4dc0a194214cd8126ed856`
+before patching, and will have `8ab516bb4bfeaf2ce5a1b3e18cb10ada9521cb5a`
 afterwards. The patch applies to the original Japanese Track 02, not to a
 Track 02 already patched with v0.3 or v1.0. The full steps, for Delta Patcher and for the command line, are in
 **[INSTALL.md](INSTALL.md)**.
@@ -306,15 +306,16 @@ or the content was changed.
 ## Version history
 
 **v1.1, 2026-11-24.** Fixes for issues reported after v1.0 (#1, #2). Screen
-titles that showed only their last letters with a line across them (the
-message calls, the animal registry, shops) are sized to the English. In the
-pause settings the Battle row can be selected again, and changing a speed no
-longer leaves letters behind. The Camp menu's options line up with the
-selector, and the message-call notice shows in full. On the gear screen no
-part of an old name is left behind, an empty slot reads "No weapon" (and so
-on) instead of "Buy", and the attack label is in English. Gear names too long
-for a slot there end in "..." (the full name shows in shops and in the gear
-list). The skill list and the hound ability list no longer wrap long entries.
+titles that showed only their last letters with a line across them (the message
+calls, the animal registry, shops) are sized to the English, and the phone's
+message list no longer wraps its entries. In the pause settings the Battle row
+can be selected again, and changing a speed no longer leaves letters behind.
+The Camp menu's options line up with the selector, and the message-call notice
+shows in full. On the gear screen no part of an old name is left behind, an
+empty slot reads "No weapon" (and so on) instead of "Buy", and the attack label
+is in English. Gear names too long for a slot there end in "..." (the full name
+shows in shops and in the gear list). The skill list and the hound ability list
+no longer wrap long entries.
 
 **v1.0, 2026-11-19.** The remaining voiced cutscenes subtitled: the prologue
 and six story cutscenes, thirteen in all. Their pictures are rebuilt on the disc
