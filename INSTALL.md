@@ -57,7 +57,7 @@ xdelta3 -d -s "Track 02 original.bin" Linda3-EN-v1.1.xdelta "Linda^3 (Japan) (Re
 The patched Track 02 has SHA-1:
 
 ```
-ded8a45629a67c59b9e1ac883282d9adccbf3d90
+c544e127c3ffac339a4dc0a194214cd8126ed856
 ```
 
 ## Alternative: keep the Japanese and English discs side by side

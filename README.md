@@ -153,7 +153,7 @@ start to finish.
 4. Open your usual `.cue`.
 
 Your Track 02 must have SHA-1 `3296a4db58a92a60dfbd35fc99a8c1943db995e1`
-before patching, and will have `ded8a45629a67c59b9e1ac883282d9adccbf3d90`
+before patching, and will have `c544e127c3ffac339a4dc0a194214cd8126ed856`
 afterwards. The patch applies to the original Japanese Track 02, not to a
 Track 02 already patched with v0.3 or v1.0. The full steps, for Delta Patcher and for the command line, are in
 **[INSTALL.md](INSTALL.md)**.
@@ -288,9 +288,6 @@ or the content was changed.
   edge of the box.
 - In the battle menu the selector on "Attack" ends about two pixels from the
   next word.
-- On the gear screen, gear names longer than 11 letters (about 40 of them,
-  such as "TanukiMoccasin") run onto the next line.
-
 **Voiced dialogue**
 
 - In conversations with voice, some lines continue on a second page: press the
@@ -298,7 +295,7 @@ or the content was changed.
 
 ## Technical
 
-- Only Track 02 is changed (1,102 byte ranges). The audio tracks are untouched.
+- Only Track 02 is changed (1,104 byte ranges). The audio tracks are untouched.
 - The patched track is the same size as the original, sector error-correction
   data is recomputed for every changed sector.
 - Building with no patches applied reproduces the original track exactly.
@@ -308,15 +305,16 @@ or the content was changed.
 
 ## Version history
 
-**v1.1, 2026-11-23.** Fixes for issues reported after v1.0 (#1, #2). Screen
+**v1.1, 2026-11-24.** Fixes for issues reported after v1.0 (#1, #2). Screen
 titles that showed only their last letters with a line across them (the
 message calls, the animal registry, shops) are sized to the English. In the
 pause settings the Battle row can be selected again, and changing a speed no
 longer leaves letters behind. The Camp menu's options line up with the
 selector, and the message-call notice shows in full. On the gear screen no
 part of an old name is left behind, an empty slot reads "No weapon" (and so
-on) instead of "Buy", and the attack label is in English. The skill list and
-the hound ability list no longer wrap long entries.
+on) instead of "Buy", and the attack label is in English. Gear names too long
+for a slot there end in "..." (the full name shows in shops and in the gear
+list). The skill list and the hound ability list no longer wrap long entries.
 
 **v1.0, 2026-11-19.** The remaining voiced cutscenes subtitled: the prologue
 and six story cutscenes, thirteen in all. Their pictures are rebuilt on the disc
