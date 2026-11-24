@@ -14,7 +14,7 @@ data track, not the game: you need your own disc image of **Linda3 (Japan, Rev 2
 
 ### Completed:
 
-Version 1.0: the whole script, the menus and the names are in English, and every
+Version 1.1: the whole script, the menus and the names are in English, and every
 voiced cutscene with story speech is subtitled.
 
 | Area | Status | Details |
