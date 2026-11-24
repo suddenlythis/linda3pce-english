@@ -7,7 +7,7 @@ data track, not the game: you need your own disc image of **Linda3 (Japan, Rev 2
  · [How to install](INSTALL.md) · [Checksums](SHA1SUMS.txt)
 
 <p align="center">
-  <img src="screenshots/01-title.png" width="512" alt="Title screen with the line: English translation v1.0">
+  <img src="screenshots/01-title.png" width="512" alt="Title screen with the line: English translation v1.1">
 </p>
 
 ## Progress
