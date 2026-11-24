@@ -1,12 +1,12 @@
 Linda3 (PC Engine Super CD-ROM2) - English translation v1.1 - SHA-1 checksums
 
 The release download
-cdbc77e90016faee00bf3fe1e0503f3e88d07048  Linda3-EN-v1.1.zip
+37c748396b7d4d315540a56ee813e15fdfa83cfa  Linda3-EN-v1.1.zip
 
 Files inside the zip
-4d604d6ed3da619bd71ef5838f36e444db6b76f1  Linda3-EN-v1.1.xdelta
+d329d59d73f20f587960261c5f2a2d83bd6be5a6  Linda3-EN-v1.1.xdelta
 93ca36a09a4624db3720f716a0caf86ce892e058  Linda3 EN.cue
 
 Your disc image, Track 02 (the data track), 212,830,128 bytes
 3296a4db58a92a60dfbd35fc99a8c1943db995e1  before patching: Linda3 (Japan) (Rev 2)
-8ab516bb4bfeaf2ce5a1b3e18cb10ada9521cb5a  after patching with Linda3-EN-v1.1.xdelta
+e10bba3c6044c90eb424e48c8a32e111de2852cb  after patching with Linda3-EN-v1.1.xdelta

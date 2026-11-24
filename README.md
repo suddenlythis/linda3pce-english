@@ -153,7 +153,7 @@ start to finish.
 4. Open your usual `.cue`.
 
 Your Track 02 must have SHA-1 `3296a4db58a92a60dfbd35fc99a8c1943db995e1`
-before patching, and will have `8ab516bb4bfeaf2ce5a1b3e18cb10ada9521cb5a`
+before patching, and will have `e10bba3c6044c90eb424e48c8a32e111de2852cb`
 afterwards. The patch applies to the original Japanese Track 02, not to a
 Track 02 already patched with v0.3 or v1.0. The full steps, for Delta Patcher and for the command line, are in
 **[INSTALL.md](INSTALL.md)**.
