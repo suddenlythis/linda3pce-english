@@ -312,7 +312,7 @@ calls, the animal registry, shops) are sized to the English, and the phone's
 message list no longer wraps its entries. In the pause settings the Battle row
 can be selected again, and changing a speed no longer leaves letters behind.
 The Camp menu's options line up with the selector, and the message-call notice
-shows in full. On the gear screen no part of an old name is left behind, an
+fits its box (shortened with "..."). On the gear screen no part of an old name is left behind, an
 empty slot reads "No weapon" (and so on) instead of "Buy", and the attack label
 is in English. Gear names too long for a slot there end in "..." (the full name
 shows in shops and in the gear list). The skill list and the hound ability list
